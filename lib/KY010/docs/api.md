@@ -2,7 +2,7 @@
 
 ## KY010 Class
 
-### `KY0101.begin()`
+### `KY010.begin()`
 
 #### Description
 
@@ -37,7 +37,7 @@ void setup()
 void loop () {}
 ```
 
-### `KY0101.d_read()`
+### `KY010.d_read()`
 
 #### Description
 
@@ -67,7 +67,7 @@ void loop()
 }
 ```
 
-### `KY0101.attach_int()`
+### `KY010.attach_int()`
 
 #### Description
 
