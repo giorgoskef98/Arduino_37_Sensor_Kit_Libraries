@@ -41,7 +41,7 @@ void loop () {}
 
 #### Description
 
-Reads the digital status of the sensor. 
+Reads the digital status of the sensor. The output of the function is reversed because when the sensor is idle the signal is HiGH but when it is triggered the signal is falling to GND. 
 
 #### Syntax
 
@@ -71,7 +71,7 @@ void loop()
 
 #### Description
 
-Attach an interrupt to check the status of the sensor and trigger a function whenever the sensor is activated. 
+Attach an interrupt to check the status of the sensor and trigger a function whenever the sensor is activated. The activation is happening when the signal is falling since the sensor idle state is HIGH and when it triggers it is falling to GND/LOW.
 
 #### Syntax
 

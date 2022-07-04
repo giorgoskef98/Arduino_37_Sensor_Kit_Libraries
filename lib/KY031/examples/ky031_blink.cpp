@@ -22,5 +22,8 @@ void loop() {
     digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on
   }else{                       
     digitalWrite(LED_BUILTIN, LOW);    // turn the LED off
-  }                                   
+  }  
+
+  // Another method that can also be used
+  //digitalWrite(LED_BUILTIN, sensor.d_read());                               
 }

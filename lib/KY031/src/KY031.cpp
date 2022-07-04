@@ -34,12 +34,12 @@ bool KY031::begin(uint8_t PIN) {
 
 
 bool KY031::d_read() {
-    return(digitalRead(PIN));
+    return(!digitalRead(PIN));
 }
 
 
 void KY031::attach_int(void){
-    attachInterrupt(digitalPinToInterrupt(PIN), ISR_trig, RISING);
+    attachInterrupt(digitalPinToInterrupt(PIN), ISR_trig, FALLING);
 }
 
 
