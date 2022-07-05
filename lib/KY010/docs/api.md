@@ -2,7 +2,7 @@
 
 ## KY010 Class
 
-### `KY010.begin()`
+### `KY010.begin(GPIO_PIN)`
 
 #### Description
 

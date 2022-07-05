@@ -7,9 +7,9 @@ The KY-031 Knock Sensor module is a sensor that detects vidration and sends a si
 when it is knocked or  tapped. The output of the sensor is digital while the operating voltage is 3.3V~5V.
 
 Scematics
-S           --> Signal Pin
-Middle Pin  --> +5V
--           --> GND
+- S           --> Signal Pin
+- Middle Pin  --> +5V
+- '-'         --> GND
 
 Created July 2022
 by George Kefalas - hosted on https://github.com/giorgoskef98

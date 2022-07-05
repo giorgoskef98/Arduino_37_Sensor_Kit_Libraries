@@ -8,9 +8,9 @@ The sensor is using a beam between the emitter and the detector to check if the 
 of the beam is being blocked by an object. 
 
 Scematics
-S           --> Signal Pin
-Middle Pin  --> +5V
--           --> GND
+- S           --> Signal Pin
+- Middle Pin  --> +5V
+- '-'         --> GND
 
 Created June 2022
 by George Kefalas - hosted on https://github.com/giorgoskef98

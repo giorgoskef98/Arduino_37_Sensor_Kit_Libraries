@@ -2,7 +2,7 @@
 
 ## KY031 Class
 
-### `KY031.begin()`
+### `KY031.begin(GPIO_PIN)`
 
 #### Description
 
